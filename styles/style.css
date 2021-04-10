@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+body {
+  font-family: 'PT Sans', sans-serif !important;
+}
+
+header {
+  background-color: #2e2e2e;
+}
+
+.menu {
+  color: white;
+}
+
+.menu .btn-donar {
+  background-color: #FF0244;
+  padding: 3px;
+  width: 120px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.menu .menu-principal {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.menu .menu-principal a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
