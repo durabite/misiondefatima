@@ -4,41 +4,84 @@
 
 // Colores
 $rojo : #FF0244;
+$azul: #56E1FF;
 
 // Fuentes
 $PTsans : 'Open Sans', sans-serif;
 $PlayfairDisplay : 'Playfair Display', serif;
 $OpenSans:  'Open Sans', sans-serif;
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: $PTsans;
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+.azul {
+    color: orangered;
+}
 body {
     font-family: $PTsans !important;
 }
-header {
-    background-color: rgb(46, 46, 46);
+.bg-header {
+    background-image: url("../assets/ninos-indigenas.jpg");
+    height: 75vh;
+    background-position: 50% 30%;
+    background-size: 100%;
+}
+.bg-dot {
+    background-image: url("../assets/gridtile.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+.menu-flotante {
+    background: rgba(0, 0, 0, 0.250);
+    border-radius: 0 0 10px 10px;
 }
 .menu {
-    color: white;
-    .btn-donar {
-        background-color: $rojo;
-        padding: 3px;
-        width: 120px;
-        text-align: center;
-        border-radius: 5px;
-        font-weight: bold;
-        color: white;
-        text-decoration: none;
-        display: block;
-    }
-    .menu-principal {
-        list-style: none;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 1.1em;
-        margin: 0;
+    list-style: none;
+    font-family: $PTsans;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15px;
+    li {
+        margin: 0 15px;
         a {
-            color: white;
             text-decoration: none;
-        }}
-        
+            color: white;
+        }
+        a:hover {
+            color: $azul;
+        }
     }
+}
+#btn-donar {
+    background-color: $rojo;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: $PTsans;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.texto-header {
+    color: white;
+    text-align: center;
+    .titulo-principal {
+        font-family: $PlayfairDisplay;
+        font-size: 5em;
+    }
+}
+.linea {
+    border: 3px solid $azul;
+    opacity: 1;
+    width: 50%;
+    margin: 15px auto;
+    border-radius: 5px;
 }
