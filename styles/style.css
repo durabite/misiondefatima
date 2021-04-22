@@ -33,8 +33,12 @@ body {
 }
 
 .menu-flotante {
-  background: rgba(0, 0, 0, 0.25);
-  border-radius: 0 0 10px 10px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 0 0 5px 5px;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .menu {
@@ -87,5 +91,82 @@ body {
   width: 50%;
   margin: 15px auto;
   border-radius: 5px;
+}
+
+.info-square {
+  background-color: #FF7456;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.icon-bigsize {
+  padding: 5px;
+}
+
+.icon-bigsize svg {
+  width: 60px;
+  height: 60px;
+}
+
+.bg-gris {
+  background: #f6f6f6;
+}
+
+.btn-programas {
+  text-decoration: none;
+  background-color: #FF7456;
+  display: block;
+  padding: 5px 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.btn-programas svg {
+  margin: 3px;
+}
+
+.btn-programas:hover {
+  color: white;
+}
+
+.btn-rs {
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 50%;
+  color: white;
+  margin: 10px 0;
+}
+
+.btn-rs i {
+  font-size: 20px;
+}
+
+.btn-rs:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.facebook {
+  background-color: #3171EE;
+}
+
+.twitter {
+  background-color: #309FF1;
+}
+
+.instagram {
+  background: #833ab4;
+  background: -webkit-gradient(linear, left top, right top, from(#833ab4), color-stop(50%, #fd1d1d), to(#fcb045));
+  background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+}
+
+.whatsapp {
+  background-color: #33D24D;
 }
 /*# sourceMappingURL=style.css.map */

@@ -5,6 +5,8 @@
 // Colores
 $rojo : #FF0244;
 $azul: #56E1FF;
+$naranja: #FF7456;
+$gris-claro: #f6f6f6;
 
 // Fuentes
 $PTsans : 'Open Sans', sans-serif;
@@ -38,8 +40,11 @@ body {
     z-index: 3;
 }
 .menu-flotante {
-    background: rgba(0, 0, 0, 0.250);
-    border-radius: 0 0 10px 10px;
+    background: rgba(0, 0, 0, 0.700);
+    border-radius: 0 0 5px 5px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .menu {
     list-style: none;
@@ -84,4 +89,67 @@ body {
     width: 50%;
     margin: 15px auto;
     border-radius: 5px;
+}
+.info-square {
+    background-color: $naranja;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.icon-bigsize {
+    padding: 5px;
+    svg {
+        width: 60px;
+        height: 60px;
+    }
+}
+.bg-gris {
+    background: $gris-claro;
+}
+.btn-programas {
+    text-decoration: none;
+    background-color: $naranja;
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    svg {
+        margin: 3px;
+    }
+}
+.btn-programas:hover {
+    color: white;
+}
+// Botones Redes Sociales 
+.btn-rs {
+    display: block;
+    text-decoration: none ;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    color: white;
+    margin: 10px 0;
+    i {
+        font-size: 20px;
+    }
+}
+.btn-rs:hover {
+    color: white;
+    text-decoration: underline;
+}
+.facebook {
+    background-color: #3171EE;
+}
+.twitter {
+    background-color: #309FF1;
+}
+.instagram {
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.whatsapp {
+    background-color: #33D24D;
 }
