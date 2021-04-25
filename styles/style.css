@@ -169,4 +169,19 @@ body {
 .whatsapp {
   background-color: #33D24D;
 }
+
+.bg-contact {
+  background-image: url("../assets/bg-contacto.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.bg-contact label {
+  font-weight: bold;
+}
+
+.bg-footer {
+  background-color: #131313;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
