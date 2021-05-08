@@ -19,7 +19,7 @@ body {
   background-image: url("../assets/ninos-indigenas.jpg");
   height: 75vh;
   background-position: 50% 30%;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .bg-dot {
@@ -35,10 +35,10 @@ body {
 .menu-flotante {
   background: rgba(0, 0, 0, 0.7);
   border-radius: 0 0 5px 5px;
-  position: fixed;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  display: none;
 }
 
 .menu {
@@ -80,13 +80,17 @@ body {
   text-align: center;
 }
 
+.texto-header #logo {
+  max-width: 50%;
+}
+
 .texto-header .titulo-principal {
   font-family: "Playfair Display", serif;
   font-size: 5em;
 }
 
 .linea {
-  border: 3px solid #56E1FF;
+  border: 3px solid #FF7456;
   opacity: 1;
   width: 50%;
   margin: 15px auto;

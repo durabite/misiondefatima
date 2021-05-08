@@ -28,7 +28,7 @@ body {
     background-image: url("../assets/ninos-indigenas.jpg");
     height: 75vh;
     background-position: 50% 30%;
-    background-size: 100%;
+    background-size: cover;
 }
 .bg-dot {
     background-image: url("../assets/gridtile.png");
@@ -42,9 +42,9 @@ body {
 .menu-flotante {
     background: rgba(0, 0, 0, 0.700);
     border-radius: 0 0 5px 5px;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
+    position: sticky;
+    top: 0px;
+    display: none;
 }
 .menu {
     list-style: none;
@@ -78,13 +78,16 @@ body {
 .texto-header {
     color: white;
     text-align: center;
+    #logo {
+        max-width: 50%;
+    }
     .titulo-principal {
         font-family: $PlayfairDisplay;
         font-size: 5em;
     }
 }
 .linea {
-    border: 3px solid $azul;
+    border: 3px solid $naranja;
     opacity: 1;
     width: 50%;
     margin: 15px auto;
