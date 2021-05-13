@@ -75,6 +75,10 @@ body {
   text-transform: uppercase;
 }
 
+.contenedor {
+  height: 800px;
+}
+
 .texto-header {
   color: white;
   text-align: center;
@@ -86,7 +90,6 @@ body {
 
 .texto-header .titulo-principal {
   font-family: "Playfair Display", serif;
-  font-size: 5em;
 }
 
 .linea {
@@ -197,5 +200,80 @@ body {
   background: #072146;
   padding: 10px;
   max-width: 100px;
+}
+
+@media (min-width: 576px) {
+  .contenedor {
+    height: 650px;
+  }
+  .bg-header {
+    height: 50vh;
+  }
+  .titulo-principal {
+    font-size: 4em;
+  }
+  #quienes-somos {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .contenedor {
+    height: 650px;
+  }
+  .bg-header {
+    height: 50vh;
+  }
+  .titulo-principal {
+    font-size: 5em;
+  }
+  #quienes-somos {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .contenedor {
+    height: 800px;
+  }
+  .bg-header {
+    height: 50vh;
+  }
+  .titulo-principal {
+    font-size: 5em;
+  }
+  #quienes-somos {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contenedor {
+    height: 800px;
+  }
+  .bg-header {
+    height: 50vh;
+  }
+  .titulo-principal {
+    font-size: 5em;
+  }
+  #quienes-somos {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1400px) {
+  .contenedor {
+    height: 800px;
+  }
+  .bg-header {
+    height: 50vh;
+  }
+  .titulo-principal {
+    font-size: 5em;
+  }
+  #quienes-somos {
+    text-align: left;
+  }
 }
 /*# sourceMappingURL=style.css.map */
