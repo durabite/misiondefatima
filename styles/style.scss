@@ -72,7 +72,7 @@ body {
     font-weight: bold;
     text-align: center;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     text-transform: uppercase;
 }
 .texto-header {
@@ -167,4 +167,12 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 .bg-footer {
     background-color: rgb(19, 19, 19);
     color: white;
+}
+#logo-paypal {
+    max-width: 150px;
+}
+#bbva {
+    background: #072146;
+    padding: 10px;
+    max-width: 100px;
 }

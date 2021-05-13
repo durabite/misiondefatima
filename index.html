@@ -221,13 +221,26 @@
        <div class="row">
            <div class="col-12 text-center">
                 <h2>Ayudanos</h2>
-                <a href="#" id="btn-donar"><i data-feather="heart"></i> Ayudanos</a>
+                <span id="btn-donar"><i data-feather="heart"></i> Donación en línea</span>
            </div>
            <div class="col-6">
-               aqui una parte
+               <img src="assets/donacion.jpeg" alt="" class="img-fluid">
            </div>
-           <div class="col-6">
-               Aqui la cuenta bacanria
+           <div class="col-6 text-center">
+               <p class="my-3" >Si los deseas puedes hacer tu donación vía PayPal o mediante deposito o transferencia electrónica.</p>
+               <div>
+                   <img src="assets/paypal-logo.png" alt="" class="img-fluid" id="logo-paypal">
+                   <form action="https://www.paypal.com/donate" method="post" target="_top" class="my-3">
+                        <input type="hidden" name="hosted_button_id" value="UHL3BLS3VBW3E" />
+                        <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                        <img alt="" border="0" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1" />
+                    </form>
+               </div>
+               <div class="mt-4">
+                   <img src="assets/logo_bbva_blanco.svg" alt="" id="bbva">
+                   <p class="mt-3 fw-bold">Misión de Fátima AC</p>
+                   <p>Cuenta: 0116502539 <br> CLABE: 012180001165025390</p>
+               </div>
            </div>
        </div>
    </div>
@@ -238,8 +251,10 @@
            <div class="row d-flex align-items-center justify-content-center">
                <div class="col-6">
                    <h2 class="text-center">Contactanos</h2>
-                   <p class="text-center">Si eres una institucion o empresa privada que deseas participar en algunos de nuestros programas o donar contactate directamente con nosotros.</p>
-                   <form action="">
+                   <p class="text-center">Si eres una institución o empresa privada que deseas participar en algunos de nuestros programas o donar, contacte directamente con nosotros.</p>
+                   
+                   <!-- Formulario Inhabilitado-->
+                   <form action="" style="display: none;">
                        <div class="my-2">
                            <label for="" class="form-label">Nombre y Apellido</label>
                            <input type="text" name="nombre" id="" class="form-control" placeholder="Nombre y Apellido">
@@ -256,8 +271,10 @@
                         <button type="submit" class="btn btn-primary">Enviar</button>
                     </div>
                    </form>
-                   <p class="m-0">Tambien puede contactarnos via E-Mail: <b>contacto@misiondefatima.org</b></p>
-                   <p class="m-0">O via telefonica al <b>(55) 1234 5678</b></p>
+                   <!-- /Formulario Inhabilitado-->
+
+                   <p class="m-0">Vía E-Mail: <b>asociacion_mision_de_fatima@yahoo.com.mx</b></p>
+                   <p class="m-0">O via telefonica al <b>(55) 2999 6675</b></p>
                </div>
            </div>
        </div>

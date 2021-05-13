@@ -71,7 +71,7 @@ body {
   font-weight: bold;
   text-align: center;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   text-transform: uppercase;
 }
 
@@ -187,5 +187,15 @@ body {
 .bg-footer {
   background-color: #131313;
   color: white;
+}
+
+#logo-paypal {
+  max-width: 150px;
+}
+
+#bbva {
+  background: #072146;
+  padding: 10px;
+  max-width: 100px;
 }
 /*# sourceMappingURL=style.css.map */
