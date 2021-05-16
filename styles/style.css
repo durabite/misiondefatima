@@ -215,6 +215,18 @@ body {
   #quienes-somos {
     text-align: center;
   }
+  .tit-voluntario {
+    margin-top: 1.5em;
+    text-align: center;
+  }
+  .text-responsive {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .btn-rs {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -229,6 +241,18 @@ body {
   }
   #quienes-somos {
     text-align: center;
+  }
+  .tit-voluntario {
+    margin-top: 1.5em;
+    text-align: center;
+  }
+  .text-responsive {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .btn-rs {
+    width: 100%;
   }
 }
 
@@ -245,6 +269,18 @@ body {
   #quienes-somos {
     text-align: center;
   }
+  .tit-voluntario {
+    margin-top: 1.5em;
+    text-align: center;
+  }
+  .text-responsive {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .btn-rs {
+    width: 100%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -260,6 +296,18 @@ body {
   #quienes-somos {
     text-align: left;
   }
+  .tit-voluntario {
+    margin-top: 0em;
+    text-align: left;
+  }
+  .text-responsive {
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+  }
+  .btn-rs {
+    width: 80%;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -274,6 +322,18 @@ body {
   }
   #quienes-somos {
     text-align: left;
+  }
+  .tit-voluntario {
+    margin-top: 0em;
+    text-align: left;
+  }
+  .text-responsive {
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+  }
+  .btn-rs {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */

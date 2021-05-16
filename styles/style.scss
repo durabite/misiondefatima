@@ -192,6 +192,16 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     #quienes-somos {
         text-align: center;
     }
+    .tit-voluntario {
+        margin-top: 1.5em;
+        text-align: center;
+    }
+    .text-responsive {
+        align-items: center;
+    }
+    .btn-rs {
+        width: 100%;
+    }
  }
 
 // Medium devices (tablets, 768px and up)
@@ -207,6 +217,16 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     }
     #quienes-somos {
         text-align: center;
+    }
+    .tit-voluntario {
+        margin-top: 1.5em;
+        text-align: center;
+    }
+    .text-responsive {
+        align-items: center;
+    }
+    .btn-rs {
+        width: 100%;
     }
  }
 
@@ -224,6 +244,16 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     #quienes-somos {
         text-align: center;
     }
+    .tit-voluntario {
+        margin-top: 1.5em;
+        text-align: center;
+    }
+    .text-responsive {
+        align-items: center;
+    }
+    .btn-rs {
+        width: 100%;
+    }
  }
 
 // X-Large devices (large desktops, 1200px and up)
@@ -240,6 +270,15 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     #quienes-somos {
         text-align: left;
     }
+    .tit-voluntario {
+        margin-top: 0em;
+        text-align: left;
+    }.text-responsive {
+        align-items: left;
+    }
+    .btn-rs {
+        width: 80%;
+    }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
@@ -255,5 +294,15 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     }
     #quienes-somos {
         text-align: left;
+    }
+    .tit-voluntario {
+        margin-top: 0em;
+        text-align: left;
+    }
+    .text-responsive {
+        align-items: left;
+    }
+    .btn-rs {
+        width: 80%;
     }
  }
